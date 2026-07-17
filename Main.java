@@ -32,7 +32,7 @@ public class Main {
         while (choice != 10) {
             
             System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-            System.out.println("           UWU HOSTEL MANAGEMENT SYSTEM");
+            System.out.println("               UWU HOSTEL MANAGEMENT SYSTEM");
             System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
             System.out.println("1. View All Hostels\n");
             System.out.println("2. Search Hostel\n");
@@ -43,7 +43,8 @@ public class Main {
             System.out.println("7. Join Waiting List\n");
             System.out.println("8. Allocate Room\n");
             System.out.println("9. Sort Hostels by Price\n");
-            System.out.println("10. Exit\n");
+            System.out.println("10. Exit");
+            System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
             System.out.print("Choose an option: ");
 
             choice = scanner.nextInt();
