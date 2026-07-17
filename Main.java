@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
@@ -18,7 +17,6 @@ public class Main {
         ArrayList<Hostel> hostels = new ArrayList<>();
         RecentViewManager recentViewManager = new RecentViewManager();
         WaitingListManager waitingListManager = new WaitingListManager();
-
 
         hostels.add(hostel1);
         hostels.add(hostel2);
@@ -51,8 +49,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     HostelManager.viewHostels(hostels);
-                    break;
-                
+                    break;   
                 case 2:
                     System.out.print("Enter Hostel ID: ");
                     int searchId = scanner.nextInt();
