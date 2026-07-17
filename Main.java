@@ -30,8 +30,10 @@ public class Main {
         int choice = 0;
 
         while (choice != 10) {
-
-            System.out.println("\n========== UWU Hostel Management ==========\n\n");
+            
+            System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+            System.out.println("           UWU HOSTEL MANAGEMENT SYSTEM");
+            System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
             System.out.println("1. View All Hostels\n");
             System.out.println("2. Search Hostel\n");
             System.out.println("3. Add Hostel\n");
